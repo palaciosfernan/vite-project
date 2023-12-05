@@ -1,0 +1,129 @@
+.container-login{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+    
+
+        .container-info{
+            background-color:#5DC1F2;
+            width: 50%;
+            height: 100%;
+            color: #fff;
+            text-align: center;
+
+            h1{
+                font-size: 40px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+        }
+
+        .container-formulario{
+            
+            position: absolute;
+            left: 62%;
+            box-shadow: -3px 0px 5px -3px rgba(0, 0, 0, 0.3), 3px 0px 5px -3px rgba(0, 0, 0, 0.3), 0px -3px 5px -3px rgba(0, 0, 0, 0.3), 0px 3px 5px -3px rgba(0, 0, 0, 0.3);
+            width: 400px;
+            height: 450px;
+            margin-top: 67px;
+            text-align: center;
+            
+            
+            h1{
+                text-align: center;
+                margin-top: 10%;
+                margin-bottom: 10%;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+
+            input {
+                background-color: rgb(226, 226, 226);
+                position: relative;
+                top: 33%;
+                right: -25%;
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 9px;
+                border-radius: 13px;
+                height: 27px;
+                width: 205px;
+                transition: background-color 0.3s, border-color 0.3s; 
+              
+                border: 2px solid transparent;
+              
+                &:focus {
+                  background-color: #ffffff;
+                  border-color: rgb(188, 188, 225);
+                }
+              
+                &:active {
+                  background-color: white;
+                  border-color: red; 
+                }
+              
+                &::placeholder {
+                  position: absolute;
+                  left: 30%;
+                  top: 4px;
+                  color: black; 
+                  font-style: initial;
+                  font-size: 17px;
+                }
+                &:focus,
+                &:valid {
+                  
+                  text-indent: 30px; 
+                }
+                &:not(:focus):not(:valid) {
+                  
+                  text-indent: 0;
+                }
+                
+
+                
+                
+            }
+            
+            .mi-clase {
+                background: linear-gradient(100deg, #5DC1FA -5.85%, #5038ED 109.55%);
+                color: #ffffff; 
+                padding: 0.5rem 1rem; 
+                border: none; 
+                border-radius: 0.27rem; 
+                font-size: 1rem;
+                cursor: pointer; 
+                transition: background-color 0.3s; 
+                position: absolute;
+                top: 59%;
+                left: 29%;
+                width: 180px;
+              
+                &:hover {
+                  background-color: #2ba8fc;
+                }
+              }
+
+              .material-symbols-outlined{
+                position: absolute;
+                top: 28%;
+                right: 68%;
+                z-index: 1;
+                font-size: 25px;
+                color: rgb(108, 108, 108);
+              }
+
+              #icon{
+                
+                    position: absolute;
+                    top: 35%;
+                    right: 68%;
+                    z-index: 1;
+                    color: rgb(108, 108, 108);
+                  
+              }
+        }
+}

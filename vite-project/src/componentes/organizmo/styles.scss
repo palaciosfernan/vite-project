@@ -1,0 +1,24 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+
+  $color: #EBEBEB;
+
+ .boton {
+    background-color: $color;
+    padding: 6px 70px;
+    color: #000;
+    margin-top: 0px;
+    margin-bottom:2%;
+    font-family: 'Noto Sans Tai Tham';
+    font-size: 20px;
+    border: 0px;
+    border-radius: 40px;
+    box-shadow: 4px 4px 10px #e0dada;
+ }   
+ .buscador{
+   background-color: red;
+ }
